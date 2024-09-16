@@ -3,17 +3,6 @@ import { CommonModule } from '@angular/common';
 import { HousingLocationComponent } from '../housing-location/housing-location.component';
 import { HousingLocation } from '../housing-location';
 
-const location1: HousingLocation = {
-  id: 1,
-  name: 'name',
-  city: 'city',
-  state: 'state',
-  photo: 'photo',
-  availableUnits: 1,
-  wifi: true,
-  laundry: true,
-};
-
 @Component({
   selector: 'app-home',
   standalone: true,
